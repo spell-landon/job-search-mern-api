@@ -40,3 +40,5 @@ router.delete('/:id', (req, res) => {
     res.json(delApp);
   });
 });
+
+module.exports = router;

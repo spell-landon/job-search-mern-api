@@ -11,12 +11,12 @@ app.use(cors());
 
 // Redirect
 app.get('/', (req, res) => {
-  res.redirect('/');
+  res.redirect('/applications');
 });
 
 // Controllers
-// Forward all requests to localhost:3111/icecreams to the ice cream controller
-app.use('/', applicationController);
+// Forward all requests to localhost:3111/applications to the ice cream controller
+app.use('/applications', applicationController);
 
 app.listen(3111, () => {
   console.log('Grabbing all current applications...');
