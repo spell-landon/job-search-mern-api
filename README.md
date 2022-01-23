@@ -60,4 +60,4 @@ Edit Interview
 
 I have full MERN set up for tracking the interviews/applications, but no current User model to be able to actually 'Login' to see only your information. Learning Passport in order to incorporate individual users.
 
-Still need to fully create the User model and controller.
+Still need to fully create the User model and controller
