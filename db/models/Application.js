@@ -2,6 +2,7 @@ const mongoose = require('../connection');
 const Schema = mongoose.Schema;
 
 const ApplicationSchema = new Schema({
+  id: Number,
   date: String,
   time: String,
   company: String,
